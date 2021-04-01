@@ -26,8 +26,8 @@ spring:
     hikari:
       driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
       jdbc-url: jdbc:log4jdbc:mysql://localhost:3307/insight?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
-      username: root
-      password: 1234
+      username: 
+      password: 
   thymeleaf:
     cache: false
   resources:
@@ -44,5 +44,5 @@ spring:
     hikari:
       driver-class-name: com.mysql.cj.jdbc.Driver
       jdbc-url: jdbc:mysql://localhost:3307/insight?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
-      username: root
-      password: 1234
+      username: 
+      password: 
